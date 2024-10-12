@@ -1,0 +1,23 @@
+.form{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.warp-input input{
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 1rem;
+    background-color: #e6e5e5;
+}
+
+.warp-input label{
+    margin-left: 1rem;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+

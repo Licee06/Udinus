@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas Latihan Minggu ke 2</title>
+    </head>
+    <body>
+        <img src="images/logoudinus.jpg" style="width:70px; height:70px;">
+        <h1>Fakultas Ilmu Komputer</h1>
+        <p style="text-align:justify">
+            Menjadi pilihan utama dalam studi informatika dengan kapasitas kewirausahaan sebagai salah satu hak istimewa adalah misi yang harus dicapai fakultas. Dengan infrastruktur yang canggih, dosen yang berkualitas, dan program unggulan, fakultas jelas telah menyelesaikan misi. Alhasil, fakultas ilmu komputer dianggap sebagai andalan Universitas Dian Nuswantoro Semarang.
+        </p>
+        <p style="text-align:justify">
+            Ilmu komputer dan informatika merupakan wujud nyata Dian Nuswantoro pada bakti sosial dalam memberikan kontribusi nyata bagi pemerintah dengan menyiapkan masyarakat yang tak terhitung menjadi tenaga profesional dengan kompetensi yang lebih tinggi, khususnya di bidang ilmu komputer dan teknologi informatika. Dengan menguasai ilmu komputer dan informatika, diharapkan kualitas sumber daya manusia semakin meningkat sehingga mampu bersaing secara percaya diri dengan yang lain di era globalisasi ini. Faktanya, globalisasi telah mempengaruhi berbagai aspek kehidupan manusia dan perkembangan ekonomi yang pesat, seperti dalam hubungan antara teknologi dan ilmu komputer, serta teknologi informasi yang lebih menuntut efektivitas dan efisiensinya. 
+            Sumber : <a href =https://www.dinus.ac.id>Link web UDINUS </a>
+        </p>
+
+        <br>
+        <!-- menampilkan gambar udinus.jpg yang ada di www.udinus.ac.id / atau diberi nama Alamat absolut -->
+        <img src="https://dinus.ac.id/wp-content/uploads/2023/11/Final-Overview_BAHASA.png" style="width:600px; height:200px;"> </a>
+        <p>Jurusan</p> 
+
+        <ul>
+            <li>Teknik Informatika-S1</li>
+            <li>Sistem Informasi-S1</li>
+            <li>Desain Komunikasi Visual-S1</li>
+                          </ul>
+                <ol>
+              <li>Programmer</li>
+              <li>Desain Analis</li>
+              <li>Data Analis</li>
+                </ol>
+
+                <!-- gambar dapat digunakan utk link atau dapat di klik meuju ke link web tertentu -->
+                <a href="https://dinus.ac.id/"> <img src="images/bannerudinus.png"
+                    alt="Banner udinus" style="width:400px;"> </a>
+
+                    <!-- Mengatur Posisi Image Terhadap Teks -->
+                    <p><img src="images/bannerputihudinus.webp">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+        <table>
+            <tr>
+                <th>NIM</th>
+                <th>NAMA</th>
+                <th>ALAMAT</th>
+                <th colspan="2">Aksi</th>
+            </tr>
+            <tr>
+                <td>A12.2023.07058</td>
+                <td>FICO 1</td>
+                <td>JL. BIMASAKTI 1</td>
+                <td><a href="">edit</a></td>
+                <td><a href="">hapus</a></td>
+            </tr>
+            <tr>
+                <td>A12.2023.07059</td>
+                <td>FICO 2</td>
+                <td>JL. BIMASAKTI 2</td>
+                <td><a href="">edit</a></td>
+                <td><a href="">hapus</a></td>
+
+                <style>
+                    table,th,td{
+                        border:1px solid black;
+                        border-collapse:collapse;
+                    }
+                </style>
+            </tr>
+        </table>
+
+        <!-- action & method -->
+         <form action="simpan.php" method="post">
+            <label for="fnama">Nama:</label>
+            <input type="text id=fnama" name="fnama"><br>
+            <inputtype="submit"value="Submit">
+
+             <!-- for dan id harus sama -->
+         <form action="simpan.php" method="post">
+            <div>
+            <label for="fnama">Nama:</label>
+            <input type="text id=fnama" name="fnama"><br>
+            </div>
+
+            <!-- Atribut elemen input -->
+            <!-- type untuk menentukan elemen input yang akan dibuat (text, radio, checkbox) -->
+            <!-- id untuk memberi identitas ke elemen. Berguna saat menggunakan javascript -->
+            <!-- name untuk memberin nama kepada elemen. Jika tidak diberi nama maka nilai dari elemen input -->
+            <!-- value untuk memberi nilai awal kepada elemen input -->
+            <form action="simpan.php" method="post">
+                <div>
+                <label for="fnama">Nama :</label>
+                <input type="text id=fnama" name="fnama" value="Fico Aldi Saputro">
+                </div>
+                <div>
+                    <input type="submit" value="Submit"><br>
+                </div>
+                    <br>
+           </form>
+                <label for="fnama">Nama: </label><br>
+                <input type="text" id="fnama" name="fnama"><br><br>
+                <label for="fjkel">Jenis kelamin: </label><br>
+                <input type="radio" id="fjkel" name="fjkel">Pria
+                <input type="radio" id="fjkel" name="fjkel">wanita<br><br>
+                <label for="ftglhr">Tanggal lahir: </label><br>
+                <input type="date" id="ftglhr" name="ftglhr"><br><br>
+                <label for="fhobi">Hobi: </label><br>
+                <input type="checkbox" id="fhobi1" name="fhobil">Fitness
+                <input type="checkbox" id="fhobi2" name="fhobi2">Reading<br><br>
+                <label for="fprodi">Program studi: </label><br>
+                <select name="fprodi" id="fprodi">
+                <option value="SI">Sistem Informasi S1</option>
+                <option value="TI">Teknik Informatika S1</option>
+                <option value="DKV">Desain Komunikasi Visual S1</option>
+                </select><br><br>
+                <label for="ftgs">File tugas: </label><br>
+                <input type="file" id="ftgs" name="ftgs"><br><br>
+                <label for="fpass">Password: </label><br>
+                <input type="password" id="fpass" name="fpass"><br><br>
+                <label for="fket">Keterangan: </label><br>
+                <textarea name="fket" id="fket" cols="30" rows="10"></textarea><br><br>
+         </form>
+    </body>
+</html>
