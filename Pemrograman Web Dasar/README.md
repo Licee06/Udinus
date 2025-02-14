@@ -1,1 +1,1 @@
-ini matkul semester 3
+Semester 3
